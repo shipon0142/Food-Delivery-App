@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+
+
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:id="@+id/addr"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@android:drawable/ic_menu_mylocation"
+                                android:text="Add Address"
+                                android:textColor="#000000"
+                                android:textSize="22sp" />
+
+                            <TextView
+                                android:id="@+id/tphone"
+                                android:layout_width="85dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/phoneNumber"
+                                android:layout_alignBottom="@+id/phoneNumber"
+                                android:layout_alignParentStart="true"
+                                android:gravity="right"
+                                android:paddingLeft="10dp"
+                                android:text="Phone:"
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/phoneNumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/addr"
+                                android:layout_toRightOf="@+id/tphone"
+                                android:paddingLeft="10dp"
+                                android:text="+0881942040142"
+                                android:textColor="#4d4949"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tcity"
+                                android:layout_width="85dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@id/tphone"
+                                android:gravity="right"
+                                android:paddingLeft="10dp"
+                                android:text="City:"
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/city"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tphone"
+                                android:layout_toRightOf="@+id/tcity"
+                                android:paddingLeft="10dp"
+                                android:text="Dhaka"
+                                android:textColor="#4d4949"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tarea"
+                                android:layout_width="85dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@id/tcity"
+                                android:gravity="right"
+                                android:paddingLeft="10dp"
+                                android:text="Area:"
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/city"
+                                android:layout_toRightOf="@id/tarea"
+                                android:paddingLeft="10dp"
+                                android:text="Dhanmondi"
+
+                                android:textColor="#4d4949"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tlocation"
+                                android:layout_width="85dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@id/tarea"
+                                android:layout_marginTop="12dp"
+                                android:gravity="right"
+                                android:text="Address:"
+                                android:textColor="#000000"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                android:id="@+id/idAddress"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tarea"
+                                android:layout_marginBottom="3dp"
+                                android:layout_toRightOf="@id/tlocation"
+                                android:hint="Location"
+                                android:paddingLeft="10dp"
+                                android:textSize="16sp" />
+
+                            <Button
+                                android:id="@+id/submitConfirm"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/idAddress"
+                                android:background="@drawable/order_button_style"
+                                android:text="Submit"
+                                android:textAllCaps="false"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

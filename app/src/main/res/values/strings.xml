@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KhaiDaai</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_breakfast">BreakfastActivity</string>
+    <string name="notification">The Android notifications menu sometimes fills up so fast, its easy to clear it without properly checking it. If youve done this, and think you might have accidentally swiped something important into non-existence, you can still get it back. Stock Android users can recover lost notifications on their Android device by finding the Android notification history. For devices with a different UI (such as Samsungs TouchWiz), this approach might not be available, but there is an app-based solution.
+    </string>
+    <string name="title_activity_promo">PromoActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="about">Khaidaai,the first online food delivery organization who born in a small country surrounded by thousands of square miles in the world On July 11, 2018 dreams to provide safe, authentic and healthy food to all the countries . Our main objective is to solve the problems of mid-day and night meal of the bachelors living in Dhaka. Our aim is to provide healthy food with honesty . The quantity and quality of food items are increasing day by day,. We are the only one who serve foods at a short time at cheap rate . We are also providing various kind of traditional foods at many places of our country such as like Rash Manjuri of Gaibandha,Curd(doi) of Bagura,Ghee of Pabna. Order to get 100% of halal food prepared in a healthy, safe environment.</string>
+</resources>

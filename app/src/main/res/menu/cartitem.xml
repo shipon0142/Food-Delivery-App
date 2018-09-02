@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/crt"
+        android:orderInCategory="300"
+        android:title="Total: 200BDT"
+        app:itemTextAppearance="@style/Base.TextAppearance.AppCompat"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

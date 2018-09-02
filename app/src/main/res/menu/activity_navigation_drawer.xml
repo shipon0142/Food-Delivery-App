@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/contact"
+            android:title="About us" />
+        <item
+            android:id="@+id/myorder"
+            android:icon="@drawable/orderhistory"
+            android:title="My order" />
+        <item
+            android:id="@+id/promo"
+            android:icon="@drawable/contact"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/menualorder"
+            android:icon="@drawable/menualorder"
+            android:title="Menual order" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+
+        <item
+            android:id="@+id/hotline"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Hotline" />
+
+
+    </group>
+
+
+</menu>
